@@ -19,9 +19,13 @@ Or install it yourself as:
     $ gem install view_tool_portfolio
 
 ## Usage
-
-@copyright = PortfolioViewTool::Renderer.copyright "karthik", "All rights reserved"
-
+`````Ruby
+@copyright = PortfolioViewTool::Renderer.copyright "YOUR_DOMAIN", "All rights reserved"
+`````
+And then paste that instant varible in view helper example given below.
+```ruby
+<%= @copyright %>
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
