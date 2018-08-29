@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Various view specific methods for application i use}
   spec.description   = %q{Provides general html data for rails application}
-  spec.homepage      = "https://www.referyogi.com"
+  spec.homepage      = "https://github.com/colkar99/Portfolio_view_tool"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
